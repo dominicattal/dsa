@@ -20,9 +20,11 @@ void bst_remove(BST* tree, int key);
 int  bst_find(BST* tree, int key);
 void bst_destroy(BST* tree);
 
-void bst_inorder(BST* tree);
-void bst_preorder(BST* tree);
-void bst_postorder(BST* tree);
+void bst_print_inorder(BST* tree);
+void bst_print_preorder(BST* tree);
+void bst_print_postorder(BST* tree);
 void bst_balance(BST* tree);
+int* bst_inorder(BST* tree, int* count);
+int  bst_count(BST* tree);
 
 #endif
