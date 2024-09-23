@@ -23,5 +23,6 @@ void bst_destroy(BST* tree);
 void bst_inorder(BST* tree);
 void bst_preorder(BST* tree);
 void bst_postorder(BST* tree);
+void bst_balance(BST* tree);
 
 #endif

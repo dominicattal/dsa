@@ -115,3 +115,7 @@ void bst_postorder(BST* tree) {
     bst_postorder_helper(tree->root);
     puts("");
 }
+
+void bst_balance(BST* tree) {
+    
+}
