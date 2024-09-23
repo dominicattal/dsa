@@ -24,7 +24,6 @@ void bst_print_inorder(BST* tree);
 void bst_print_preorder(BST* tree);
 void bst_print_postorder(BST* tree);
 void bst_balance(BST* tree);
-int* bst_inorder(BST* tree, int* count);
 int  bst_count(BST* tree);
 
 #endif
