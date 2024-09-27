@@ -19,6 +19,4 @@ int queue_dequeue(Queue* queue);
 int queue_empty(Queue* queue);
 void queue_destroy(Queue* queue);
 
-void queue_test(void);
-
 #endif

@@ -10,7 +10,13 @@ typedef struct SNode {
 
 typedef struct Stack {
     SNode* head;
-    SNode* tail;
 } Stack;
+
+Stack* stack_create(void);
+void stack_push(Stack* stack, int val);
+int  stack_pop(Stack* stack);
+int  stack_peek(Stack* stack);
+int  stack_empty(Stack* stack);
+void stack_destroy(Stack* stack);
 
 #endif
