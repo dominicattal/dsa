@@ -7,7 +7,7 @@ String txt and pat represent the text and pattern respectively.
 Print all indexes of occurrences of pattern string in the text string.
 */
 
-#include "string_algs.h"
+#include "strings.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

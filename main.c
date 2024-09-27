@@ -1,13 +1,9 @@
 #include <stdio.h>
-#include <stack/stack.h>
+#include "algs/algs.h"
 
 int main(int argc, char **argv) {
-    Stack* stack = stack_create();
-    puts("A");
-    for (int i = 0; i < 10; i++)
-        stack_push(stack, i);
-    puts("B");
-    stack_destroy(stack);
-    puts("C");
+    int N = 7;
+    int arr[7] = {2, 3, -8, 7, -1, 2, 3};
+    printf("%d\n", kadane(arr, N));
     return 0;
 }

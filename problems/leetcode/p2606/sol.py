@@ -1,4 +1,5 @@
-#https://leetcode.com/problems/find-the-substring-with-maximum-cost/?envType=problem-list-v2&envId=dynamic-programming
+# https://leetcode.com/problems/find-the-substring-with-maximum-cost/?envType=problem-list-v2&envId=dynamic-programming
+# kadane
 def solve(s, chars, vals):
     costs = [i+1 for i in range(26)]
     for i, c in enumerate(chars):
