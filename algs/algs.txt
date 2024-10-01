@@ -1,3 +1,10 @@
 https://en.wikipedia.org/wiki/Hungarian_algorithm
 https://en.wikipedia.org/wiki/Tropical_semiring#Basic_definitions
 https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/ (kadane)
+
+from https://stackoverflow.com/questions/2267146/what-is-the-fastest-integer-factorization-algorithm
+https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm
+https://maths-people.anu.edu.au/%7Ebrent/pub/pub051.html
+https://en.wikipedia.org/wiki/Lenstra_elliptic-curve_factorization
+https://en.wikipedia.org/wiki/Quadratic_sieve
+https://en.wikipedia.org/wiki/General_number_field_sieve
