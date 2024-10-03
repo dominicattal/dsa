@@ -1,0 +1,13 @@
+def solve():
+    N = 20
+    dp = [[0] * (N+1) for _ in range(N+1)]
+    dp[0][0] = 1
+    for i in range(N+1):
+        for j in range(N+1):
+            if 0 < i < N + 1:
+                dp[i][j] += dp[i-1][j]
+            if 0 < j < N + 1:
+                dp[i][j] += dp[i][j-1]
+    print(dp[N][N])
+    
+solve()
