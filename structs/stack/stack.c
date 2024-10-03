@@ -22,13 +22,17 @@ void stack_push(Stack* stack, int val) {
     SNode* node = snode_create(val);
     if (stack->head == NULL)
         stack->head = node;
-    else
-        node->next = stack->head = node;
+    else {
+        node->next = stack->head;
+        stack->head = node;
+    }
 }
 
 int stack_pop(Stack* stack) {
-    int val = stack->head->val;
-    stack->head = stack->head->next;
+    SNode* prev = stack->head;
+    int val = prev->val;
+    stack->head = prev->next;
+    snode_destroy(prev);
     return val;
 }
 
