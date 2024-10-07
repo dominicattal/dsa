@@ -20,12 +20,9 @@ Stack* stack_create(void) {
 
 void stack_push(Stack* stack, int val) {
     SNode* node = snode_create(val);
-    if (stack->head == NULL)
-        stack->head = node;
-    else {
+    if (stack->head != NULL)
         node->next = stack->head;
-        stack->head = node;
-    }
+    stack->head = node;
 }
 
 int stack_pop(Stack* stack) {

@@ -8,3 +8,7 @@ https://maths-people.anu.edu.au/%7Ebrent/pub/pub051.html
 https://en.wikipedia.org/wiki/Lenstra_elliptic-curve_factorization
 https://en.wikipedia.org/wiki/Quadratic_sieve
 https://en.wikipedia.org/wiki/General_number_field_sieve
+
+min cut
+
+https://en.wikipedia.org/wiki/Permutation#Generation_in_lexicographic_order
