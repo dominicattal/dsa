@@ -1,5 +1,4 @@
-from functools import cache, reduce
-from collections import defaultdict
+from functools import cache
 
 @cache
 def d(n):
